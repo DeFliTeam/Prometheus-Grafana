@@ -25,7 +25,7 @@ chmod +x node_exporter
 ```bash
 ./node_exporter
 ```
-To test the netrics are being populated 
+To test the metrics are being populated 
 
 ```bash
 curl http://localhost:8080/data
