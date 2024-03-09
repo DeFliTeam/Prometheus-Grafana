@@ -55,7 +55,7 @@ global:
 scrape_configs:
   - job_name: defli
     static_configs:
-      - targets: ['localhost:8080/data']
+      - targets: ['localhost:9105']
 
 remote_write:
   - url: '<https://prometheus-prod-13-prod-us-east-0.grafana.net/api/prom/push>'
